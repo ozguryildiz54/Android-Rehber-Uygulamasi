@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@android:drawable/ic_menu_call"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:title=""
+        android:id="@+id/ara">
+
+    </item>
+
+    <item
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:id="@+id/duzenle"
+        android:title="">
+
+
+    </item>
+
+    <item
+        android:icon="@android:drawable/ic_delete"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        android:id="@+id/sil"
+        android:title="">
+
+
+    </item>
+
+</menu>

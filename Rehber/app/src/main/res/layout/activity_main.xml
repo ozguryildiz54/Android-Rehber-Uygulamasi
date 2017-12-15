@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.ozgur.rehber.Activities.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:focusable="auto"
+        android:focusedByDefault="false"
+        android:hint="Kişi Ara"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listRecyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+
+</FrameLayout>
